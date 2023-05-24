@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Assets/Kenney Space Shooter/Bonus/435415__v-ktor__explosion10.wav" type="AudioStream" id=1]
+[ext_resource path="res://Scenes/Effects/Splosion.gd" type="Script" id=2]
+
+[sub_resource type="StreamTexture" id=1]
+load_path = "res://.import/playerShip1_damage3.png-bb04083890041d561e3624807d89284c.stex"
+
+[sub_resource type="Curve" id=3]
+max_value = 2.16
+_data = [ Vector2( 0, 0.314182 ), 0.0, 0.0, 0, 0, Vector2( 0.950495, 1.23709 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.196364 ), -0.0708313, 0.0, 0, 0 ]
+
+[sub_resource type="Gradient" id=2]
+offsets = PoolRealArray( 1.54143e-43, 0.463687, 0.497207 )
+colors = PoolColorArray( 1, 0.941176, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0.172549 )
+
+[node name="Splosion" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 1 )
+volume_db = 7.866
+pitch_scale = 0.74
+autoplay = true
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+rotation = 3.14159
+amount = 16
+lifetime = 0.25
+speed_scale = 0.43
+randomness = 1.0
+texture = SubResource( 1 )
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 256.88
+initial_velocity_random = 1.0
+angle = 418.8
+angle_random = 1.0
+scale_amount_curve = SubResource( 3 )
+color_ramp = SubResource( 2 )
+
+[node name="VisualOut" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+autostart = true
+
+[connection signal="finished" from="Sound" to="." method="_on_Sound_finished"]
+[connection signal="timeout" from="VisualOut" to="." method="_on_VisualOut_timeout"]

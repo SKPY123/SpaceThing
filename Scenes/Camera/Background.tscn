@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scenes/Camera/Background.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Starfields/Starfield 1 - 1024x1024.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Purple Nebula/Purple Nebula 8 - 1024x1024.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Starfields/Starfield 2 - 1024x1024.png" type="Texture" id=4]
+
+[sub_resource type="ShaderMaterial" id=1]
+
+[sub_resource type="CanvasItemMaterial" id=2]
+blend_mode = 1
+
+[node name="Background" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_vertical_guides_": [ 600.0 ]
+}
+speed = 200
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+z_index = 1
+motion_scale = Vector2( 0.01, 0.01 )
+motion_mirroring = Vector2( 1024, 1024 )
+
+[node name="BackgroundTexture" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+texture = ExtResource( 3 )
+centered = false
+region_rect = Rect2( -1280, -1280, 1280, 1280 )
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+material = SubResource( 1 )
+motion_scale = Vector2( 0.1, 0.1 )
+motion_mirroring = Vector2( 1024, 1024 )
+
+[node name="Starfield1-1024X1024" type="Sprite" parent="ParallaxBackground/ParallaxLayer2"]
+material = SubResource( 2 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+material = SubResource( 1 )
+motion_scale = Vector2( 0.3, 0.3 )
+motion_mirroring = Vector2( 2048, 2048 )
+
+[node name="Starfield1-1024X1024" type="Sprite" parent="ParallaxBackground/ParallaxLayer3"]
+material = SubResource( 2 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 4 )
+centered = false

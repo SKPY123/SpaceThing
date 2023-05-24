@@ -1,0 +1,111 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Scenes/Camera/Background.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Level.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/PlayerController/PlayerControler.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Assets/Kenney Space Shooter/Bonus/2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3" type="AudioStream" id=5]
+[ext_resource path="res://Scenes/Screens/DeathMenu.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/Level/SpawnBallStroidTiny.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Scenes/Level/SpawnBallStroidMed.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Scenes/Level/SpawnBallSpeedBoost.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Scenes/Level/SpawnBallStroidLarge.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Scenes/Level/SpawnBallEnemy1.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Scenes/Level/SpawnBallHPBoost.tscn" type="PackedScene" id=12]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 50, 300 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 50, 512 )
+
+[node name="Level" type="Node2D"]
+script = ExtResource( 2 )
+Level = 1
+
+[node name="Background" parent="." instance=ExtResource( 1 )]
+speed = 500
+
+[node name="Camera2D" type="Camera2D" parent="Background"]
+anchor_mode = 0
+current = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Background"]
+position = Vector2( 600, 0 )
+rotation = 1.57079
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Background/StaticBody2D"]
+position = Vector2( -50, 300 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Background/StaticBody2D"]
+position = Vector2( 1074, 300 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Background/StaticBody2D"]
+position = Vector2( 512, -50 )
+rotation = 1.57079
+shape = SubResource( 2 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Background/StaticBody2D"]
+position = Vector2( 512, 650 )
+rotation = 1.57079
+shape = SubResource( 2 )
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Background"]
+position = Vector2( 600, 0 )
+rotation = 1.57079
+collision_mask = 17
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Background/StaticBody2D2"]
+position = Vector2( 1074, 300 )
+shape = SubResource( 1 )
+
+[node name="PlayerControler" parent="Background" instance=ExtResource( 4 )]
+
+[node name="GameMusic" type="AudioStreamPlayer2D" parent="Background"]
+position = Vector2( 306, 524 )
+stream = ExtResource( 5 )
+volume_db = 3.0
+autoplay = true
+
+[node name="TimerSpawnMeteors" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true
+
+[node name="SecondsElapsed" type="Timer" parent="."]
+autostart = true
+
+[node name="TimerSpawnBoosts" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true
+
+[node name="TimerSpawnEnemies" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="LevelUI" type="Control" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="DeathMenu" parent="CanvasLayer/LevelUI" instance=ExtResource( 6 )]
+
+[node name="StroidTiny" parent="." instance=ExtResource( 7 )]
+
+[node name="StroidMed" parent="." instance=ExtResource( 8 )]
+
+[node name="StroidLarge" parent="." instance=ExtResource( 10 )]
+
+[node name="SpeedBoost" parent="." instance=ExtResource( 9 )]
+
+[node name="HPBoost" parent="." instance=ExtResource( 12 )]
+
+[node name="Enemy1" parent="." instance=ExtResource( 11 )]
+
+[connection signal="DeathScreen" from="." to="CanvasLayer/LevelUI/DeathMenu" method="_on_Level_DeathScreen"]
+[connection signal="Death" from="Background/PlayerControler" to="." method="_on_PlayerControler_Death"]
+[connection signal="timeout" from="TimerSpawnMeteors" to="." method="_on_TimerSpawn_timeout"]
+[connection signal="timeout" from="SecondsElapsed" to="." method="_on_SecondsElapsed_timeout"]
+[connection signal="timeout" from="TimerSpawnBoosts" to="." method="_on_TimerSpawnBoosts_timeout"]
+[connection signal="timeout" from="TimerSpawnEnemies" to="." method="_on_TimerSpawnEnemies_timeout"]

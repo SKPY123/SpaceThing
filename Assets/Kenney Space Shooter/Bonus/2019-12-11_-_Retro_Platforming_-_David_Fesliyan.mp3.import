@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3-2324cf83ac928e4f5f5476cc46010f13.mp3str"
+
+[deps]
+
+source_file="res://SpaceThing/Assets/Kenney Space Shooter/Bonus/2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3"
+dest_files=[ "res://.import/2019-12-11_-_Retro_Platforming_-_David_Fesliyan.mp3-2324cf83ac928e4f5f5476cc46010f13.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

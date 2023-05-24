@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/sfx_laser1.ogg-7458b2d35efc2515302659ae08fdc619.oggstr"
+
+[deps]
+
+source_file="res://SpaceThing/Assets/Kenney Space Shooter/Bonus/sfx_laser1.ogg"
+dest_files=[ "res://.import/sfx_laser1.ogg-7458b2d35efc2515302659ae08fdc619.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,106 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scenes/Screens/DeathMenu.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Kenney Space Shooter/UI/Fonts/kenvector_future.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 48
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 60
+outline_size = 2
+font_data = ExtResource( 2 )
+
+[node name="DeathMenu" type="Control"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" type="Panel" parent="CenterContainer"]
+margin_left = 50.0
+margin_top = 262.0
+margin_right = 550.0
+margin_bottom = 762.0
+rect_min_size = Vector2( 500, 500 )
+
+[node name="MarginContainer" type="MarginContainer" parent="CenterContainer/Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 50.0
+margin_top = 90.0
+margin_right = -50.0
+margin_bottom = -90.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/Panel/MarginContainer"]
+margin_right = 412.0
+margin_bottom = 377.0
+alignment = 1
+
+[node name="Label" type="Label" parent="CenterContainer/Panel/MarginContainer/VBoxContainer"]
+margin_right = 412.0
+margin_bottom = 111.0
+custom_fonts/font = SubResource( 1 )
+text = "Total time survived:"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/Panel/MarginContainer/VBoxContainer"]
+margin_top = 115.0
+margin_right = 412.0
+margin_bottom = 183.0
+alignment = 1
+
+[node name="TimeCount" type="Label" parent="CenterContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+margin_right = 128.0
+margin_bottom = 68.0
+custom_colors/font_color = Color( 1, 0.352941, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "100"
+valign = 1
+
+[node name="Label4" type="Label" parent="CenterContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+margin_left = 132.0
+margin_top = 7.0
+margin_right = 412.0
+margin_bottom = 61.0
+custom_fonts/font = SubResource( 1 )
+text = "Seconds"
+align = 1
+valign = 1
+
+[node name="Label2" type="Label" parent="CenterContainer/Panel/MarginContainer/VBoxContainer"]
+margin_top = 187.0
+margin_right = 412.0
+margin_bottom = 241.0
+custom_fonts/font = SubResource( 1 )
+text = "Try again?"
+align = 1
+valign = 1
+
+[node name="Yes" type="Button" parent="CenterContainer/Panel/MarginContainer/VBoxContainer"]
+margin_top = 245.0
+margin_right = 412.0
+margin_bottom = 309.0
+rect_min_size = Vector2( 0, 64 )
+focus_neighbour_bottom = NodePath("../No")
+text = "LETS GO!"
+
+[node name="No" type="Button" parent="CenterContainer/Panel/MarginContainer/VBoxContainer"]
+margin_top = 313.0
+margin_right = 412.0
+margin_bottom = 377.0
+rect_min_size = Vector2( 0, 64 )
+focus_neighbour_top = NodePath("../Yes")
+text = "..nah"
+
+[connection signal="pressed" from="CenterContainer/Panel/MarginContainer/VBoxContainer/Yes" to="." method="_on_Yes_pressed"]
+[connection signal="pressed" from="CenterContainer/Panel/MarginContainer/VBoxContainer/No" to="." method="_on_No_pressed"]

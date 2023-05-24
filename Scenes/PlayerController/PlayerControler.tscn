@@ -1,0 +1,270 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Scenes/PlayerController/PlayerControler.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Ship/Ship.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/Kenney Space Shooter/PNG/Effects/shield3.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Kenney Space Shooter/UI/PNG/barVertical_blue_mid.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Kenney Space Shooter/UI/PNG/barHorizontal_white_mid.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Kenney Space Shooter/UI/PNG/barHorizontal_blue_mid.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Kenney Space Shooter/PNG/Power-ups/powerupBlue_bolt.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Kenney Space Shooter/Bonus/220173__gameaudio__spacey-1uppower-up.wav" type="AudioStream" id=8]
+[ext_resource path="res://Assets/Kenney Space Shooter/Bonus/588251__romeo_kaleikau__power-up-regeneration-sfx.wav" type="AudioStream" id=9]
+[ext_resource path="res://Assets/Kenney Space Shooter/Bonus/494781__matrixxx__powerup_01.wav" type="AudioStream" id=10]
+[ext_resource path="res://Assets/Kenney Space Shooter/Bonus/656357__krokulator__alarm3.wav" type="AudioStream" id=11]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Hit"
+length = 0.5
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Player:modulate:r")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("Player:modulate:g")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("Player:modulate:b")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("Player:modulate:a")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("CanvasLayer/PlayerUI/TextureProgress_HP:modulate:r")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 )
+}
+tracks/5/type = "bezier"
+tracks/5/path = NodePath("CanvasLayer/PlayerUI/TextureProgress_HP:modulate:g")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 )
+}
+tracks/6/type = "bezier"
+tracks/6/path = NodePath("CanvasLayer/PlayerUI/TextureProgress_HP:modulate:b")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 )
+}
+tracks/7/type = "bezier"
+tracks/7/path = NodePath("CanvasLayer/PlayerUI/TextureProgress_HP:modulate:a")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"points": PoolRealArray( 0.513726, -0.25, 0, 0.25, 0, 0.513726, -0.25, 0, 0.25, 0, 0.513726, -0.25, 0, 0.25, 0, 0.513726, -0.25, 0, 0.25, 0, 0.513726, -0.25, 0, 0.25, 0, 0.513726, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 )
+}
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Player:modulate:r")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("Player:modulate:g")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("Player:modulate:b")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("Player:modulate:a")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("CanvasLayer/PlayerUI/TextureProgress_HP:modulate:r")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/5/type = "bezier"
+tracks/5/path = NodePath("CanvasLayer/PlayerUI/TextureProgress_HP:modulate:g")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/6/type = "bezier"
+tracks/6/path = NodePath("CanvasLayer/PlayerUI/TextureProgress_HP:modulate:b")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/7/type = "bezier"
+tracks/7/path = NodePath("CanvasLayer/PlayerUI/TextureProgress_HP:modulate:a")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"points": PoolRealArray( 0.513726, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+
+[node name="PlayerControler" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 307, 520 )
+collision_layer = 2048
+moveSpeed = 500
+
+[node name="Barrel_1" type="Position2D" parent="Player"]
+position = Vector2( 0, -52 )
+
+[node name="HPUP" type="AudioStreamPlayer2D" parent="Player"]
+stream = ExtResource( 8 )
+volume_db = 6.02
+
+[node name="SpeedBoostSound" type="AudioStreamPlayer2D" parent="Player"]
+stream = ExtResource( 9 )
+volume_db = 10.0
+
+[node name="Shield" type="Sprite" parent="Player"]
+visible = false
+texture = ExtResource( 3 )
+
+[node name="ShieldSound" type="AudioStreamPlayer2D" parent="Player"]
+stream = ExtResource( 10 )
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Player"]
+stream = ExtResource( 11 )
+volume_db = 3.62
+pitch_scale = 0.92
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="PlayerUI" type="Control" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TextureProgress_HP" type="TextureProgress" parent="CanvasLayer/PlayerUI"]
+modulate = Color( 1, 1, 1, 0.513726 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -115.5
+margin_top = 416.0
+margin_right = 115.5
+margin_bottom = 456.0
+value = 68.0
+texture_under = ExtResource( 5 )
+texture_over = ExtResource( 4 )
+texture_progress = ExtResource( 6 )
+tint_over = Color( 1, 1, 1, 0.443137 )
+nine_patch_stretch = true
+
+[node name="BoostBar" type="TextureProgress" parent="CanvasLayer/PlayerUI"]
+margin_left = 425.0
+margin_top = 928.0
+margin_right = 465.0
+margin_bottom = 968.0
+max_value = 3.0
+step = 0.01
+value = 2.03
+texture_progress = ExtResource( 7 )
+fill_mode = 5
+nine_patch_stretch = true
+
+[node name="AttackTimer" type="Timer" parent="."]
+wait_time = 0.25
+autostart = true
+
+[node name="SpeedBoost" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="Audio" type="Node" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Hit = SubResource( 1 )
+anims/RESET = SubResource( 2 )
+
+[node name="DeathTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="moveGivenDir" from="." to="Player" method="move"]
+[connection signal="dead" from="Player" to="." method="_on_Player_dead"]
+[connection signal="hit" from="Player" to="." method="_on_Player_hit"]
+[connection signal="timeout" from="AttackTimer" to="." method="_on_AttackTimer_timeout"]
+[connection signal="timeout" from="SpeedBoost" to="." method="_on_SpeedBoost_timeout"]
+[connection signal="timeout" from="DeathTimer" to="." method="_on_DeathTimer_timeout"]
