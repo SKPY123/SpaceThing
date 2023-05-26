@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ufoRed.png-ece85c551b277f1a1e7dfb586b2ec506.stex"
+path="res://.import/ufoRed.png-5a8b2d54e130b052c9a4a6e9725aa8e0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/ufoRed.png"
-dest_files=[ "res://.import/ufoRed.png-ece85c551b277f1a1e7dfb586b2ec506.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/ufoRed.png"
+dest_files=[ "res://.import/ufoRed.png-5a8b2d54e130b052c9a4a6e9725aa8e0.stex" ]
 
 [params]
 

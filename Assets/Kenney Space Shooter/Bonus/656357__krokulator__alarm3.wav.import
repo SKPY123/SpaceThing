@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/656357__krokulator__alarm3.wav-09b84762ee4f4eb2305f5e1b6abf27b7.sample"
+path="res://.import/656357__krokulator__alarm3.wav-8c807e71a7b931d56f647f5cc444dbb2.sample"
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/Bonus/656357__krokulator__alarm3.wav"
-dest_files=[ "res://.import/656357__krokulator__alarm3.wav-09b84762ee4f4eb2305f5e1b6abf27b7.sample" ]
+source_file="res://Assets/Kenney Space Shooter/Bonus/656357__krokulator__alarm3.wav"
+dest_files=[ "res://.import/656357__krokulator__alarm3.wav-8c807e71a7b931d56f647f5cc444dbb2.sample" ]
 
 [params]
 

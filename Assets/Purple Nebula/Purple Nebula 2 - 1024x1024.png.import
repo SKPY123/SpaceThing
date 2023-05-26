@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Purple Nebula 2 - 1024x1024.png-15a7db55a9d194695b40fc860d361c28.stex"
+path="res://.import/Purple Nebula 2 - 1024x1024.png-951342ba5509f72791966e49b376f5f4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Purple Nebula/Purple Nebula 2 - 1024x1024.png"
-dest_files=[ "res://.import/Purple Nebula 2 - 1024x1024.png-15a7db55a9d194695b40fc860d361c28.stex" ]
+source_file="res://Assets/Purple Nebula/Purple Nebula 2 - 1024x1024.png"
+dest_files=[ "res://.import/Purple Nebula 2 - 1024x1024.png-951342ba5509f72791966e49b376f5f4.stex" ]
 
 [params]
 

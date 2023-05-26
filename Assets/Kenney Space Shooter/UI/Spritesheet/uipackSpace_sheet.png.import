@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/uipackSpace_sheet.png-00cbe9138f25c5218e5f0822f58d0575.stex"
+path="res://.import/uipackSpace_sheet.png-d0db26f9ceb40ac18154450ee3fdfcd7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/UI/Spritesheet/uipackSpace_sheet.png"
-dest_files=[ "res://.import/uipackSpace_sheet.png-00cbe9138f25c5218e5f0822f58d0575.stex" ]
+source_file="res://Assets/Kenney Space Shooter/UI/Spritesheet/uipackSpace_sheet.png"
+dest_files=[ "res://.import/uipackSpace_sheet.png-d0db26f9ceb40ac18154450ee3fdfcd7.stex" ]
 
 [params]
 

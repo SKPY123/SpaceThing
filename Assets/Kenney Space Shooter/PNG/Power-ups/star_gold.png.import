@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/star_gold.png-8e261403df96f05dd7aefa9accc6d132.stex"
+path="res://.import/star_gold.png-2f242137e1229f52de79b43dc563d45f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Power-ups/star_gold.png"
-dest_files=[ "res://.import/star_gold.png-8e261403df96f05dd7aefa9accc6d132.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Power-ups/star_gold.png"
+dest_files=[ "res://.import/star_gold.png-2f242137e1229f52de79b43dc563d45f.stex" ]
 
 [params]
 

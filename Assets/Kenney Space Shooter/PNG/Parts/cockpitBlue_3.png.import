@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cockpitBlue_3.png-07587c184c44d77ef5b1b332a8b5432d.stex"
+path="res://.import/cockpitBlue_3.png-abf828817f431733bffa7d367dbfa3d5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Parts/cockpitBlue_3.png"
-dest_files=[ "res://.import/cockpitBlue_3.png-07587c184c44d77ef5b1b332a8b5432d.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Parts/cockpitBlue_3.png"
+dest_files=[ "res://.import/cockpitBlue_3.png-abf828817f431733bffa7d367dbfa3d5.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/enemyBlue4.png-97b5921bdcfb0f5d832d734a78235423.stex"
+path="res://.import/enemyBlue4.png-4ccee72e90ef068ec7d52e64b1433b12.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Enemies/enemyBlue4.png"
-dest_files=[ "res://.import/enemyBlue4.png-97b5921bdcfb0f5d832d734a78235423.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Enemies/enemyBlue4.png"
+dest_files=[ "res://.import/enemyBlue4.png-4ccee72e90ef068ec7d52e64b1433b12.stex" ]
 
 [params]
 

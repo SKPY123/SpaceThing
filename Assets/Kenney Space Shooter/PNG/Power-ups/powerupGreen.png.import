@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/powerupGreen.png-c047dc43723e9714aefdaed5edb87b0a.stex"
+path="res://.import/powerupGreen.png-6d0240868e7a42a915da89986219423b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Power-ups/powerupGreen.png"
-dest_files=[ "res://.import/powerupGreen.png-c047dc43723e9714aefdaed5edb87b0a.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Power-ups/powerupGreen.png"
+dest_files=[ "res://.import/powerupGreen.png-6d0240868e7a42a915da89986219423b.stex" ]
 
 [params]
 

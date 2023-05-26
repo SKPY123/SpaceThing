@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/metalPanel_redCorner.png-419b660f1b268edc4ed33d28356f34c6.stex"
+path="res://.import/metalPanel_redCorner.png-c20d30a8ed6d7745eec6953d67d1ff30.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/UI/PNG/metalPanel_redCorner.png"
-dest_files=[ "res://.import/metalPanel_redCorner.png-419b660f1b268edc4ed33d28356f34c6.stex" ]
+source_file="res://Assets/Kenney Space Shooter/UI/PNG/metalPanel_redCorner.png"
+dest_files=[ "res://.import/metalPanel_redCorner.png-c20d30a8ed6d7745eec6953d67d1ff30.stex" ]
 
 [params]
 

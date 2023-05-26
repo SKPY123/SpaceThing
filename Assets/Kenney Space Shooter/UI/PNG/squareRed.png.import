@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/squareRed.png-a331e58c22be5bb493b93889b05564c4.stex"
+path="res://.import/squareRed.png-ff59a3ba705bfb9c5df85814bfa86f12.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/UI/PNG/squareRed.png"
-dest_files=[ "res://.import/squareRed.png-a331e58c22be5bb493b93889b05564c4.stex" ]
+source_file="res://Assets/Kenney Space Shooter/UI/PNG/squareRed.png"
+dest_files=[ "res://.import/squareRed.png-ff59a3ba705bfb9c5df85814bfa86f12.stex" ]
 
 [params]
 

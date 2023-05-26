@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/shield2.png-df0ea2ba383e4264f61a3da917d7ad4c.stex"
+path="res://.import/shield2.png-f50d551ce03147e6cc92e816587323b7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Effects/shield2.png"
-dest_files=[ "res://.import/shield2.png-df0ea2ba383e4264f61a3da917d7ad4c.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Effects/shield2.png"
+dest_files=[ "res://.import/shield2.png-f50d551ce03147e6cc92e816587323b7.stex" ]
 
 [params]
 

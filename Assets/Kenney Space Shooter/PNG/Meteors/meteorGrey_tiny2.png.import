@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/meteorGrey_tiny2.png-599f3a7b1f68f9b26386609c77f18ad8.stex"
+path="res://.import/meteorGrey_tiny2.png-1eeebecb6691f774ecc350cec74cbbfe.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Meteors/meteorGrey_tiny2.png"
-dest_files=[ "res://.import/meteorGrey_tiny2.png-599f3a7b1f68f9b26386609c77f18ad8.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Meteors/meteorGrey_tiny2.png"
+dest_files=[ "res://.import/meteorGrey_tiny2.png-1eeebecb6691f774ecc350cec74cbbfe.stex" ]
 
 [params]
 

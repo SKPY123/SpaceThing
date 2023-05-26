@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/glassPanel_projection.png-b482b0cb7732deee24192a2e6f000d50.stex"
+path="res://.import/glassPanel_projection.png-48d75a91a66cf98eb16cb96325eb8ed0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/UI/PNG/glassPanel_projection.png"
-dest_files=[ "res://.import/glassPanel_projection.png-b482b0cb7732deee24192a2e6f000d50.stex" ]
+source_file="res://Assets/Kenney Space Shooter/UI/PNG/glassPanel_projection.png"
+dest_files=[ "res://.import/glassPanel_projection.png-48d75a91a66cf98eb16cb96325eb8ed0.stex" ]
 
 [params]
 

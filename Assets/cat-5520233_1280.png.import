@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cat-5520233_1280.png-9f89710b96acf67933a22fbe032011e3.stex"
+path="res://.import/cat-5520233_1280.png-eb795bea7fd745471375100b9e67d24e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/cat-5520233_1280.png"
-dest_files=[ "res://.import/cat-5520233_1280.png-9f89710b96acf67933a22fbe032011e3.stex" ]
+source_file="res://Assets/cat-5520233_1280.png"
+dest_files=[ "res://.import/cat-5520233_1280.png-eb795bea7fd745471375100b9e67d24e.stex" ]
 
 [params]
 

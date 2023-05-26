@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dotGreen.png-827862aaa0c31510d6880eaa48616081.stex"
+path="res://.import/dotGreen.png-c847a2e7e62dea5f5800d85e613bc43f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/UI/PNG/dotGreen.png"
-dest_files=[ "res://.import/dotGreen.png-827862aaa0c31510d6880eaa48616081.stex" ]
+source_file="res://Assets/Kenney Space Shooter/UI/PNG/dotGreen.png"
+dest_files=[ "res://.import/dotGreen.png-c847a2e7e62dea5f5800d85e613bc43f.stex" ]
 
 [params]
 

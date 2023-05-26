@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pill_green.png-0b9b8272a6dfcd4a682cfc4128dc23d4.stex"
+path="res://.import/pill_green.png-5f8eb090d7b2517e2753e1cbf4944bd5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Power-ups/pill_green.png"
-dest_files=[ "res://.import/pill_green.png-0b9b8272a6dfcd4a682cfc4128dc23d4.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Power-ups/pill_green.png"
+dest_files=[ "res://.import/pill_green.png-5f8eb090d7b2517e2753e1cbf4944bd5.stex" ]
 
 [params]
 

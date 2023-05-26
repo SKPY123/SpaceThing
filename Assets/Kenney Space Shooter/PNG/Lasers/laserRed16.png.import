@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/laserRed16.png-4a7bee3709fdd67c02e46adbe988eebc.stex"
+path="res://.import/laserRed16.png-254f7910b567437cc98bd09b03231e37.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Lasers/laserRed16.png"
-dest_files=[ "res://.import/laserRed16.png-4a7bee3709fdd67c02e46adbe988eebc.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Lasers/laserRed16.png"
+dest_files=[ "res://.import/laserRed16.png-254f7910b567437cc98bd09b03231e37.stex" ]
 
 [params]
 

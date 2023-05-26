@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Blue Nebula 5 - 1024x1024.png-eb0067ef273429d273670bfe2e4c60d8.stex"
+path="res://.import/Blue Nebula 5 - 1024x1024.png-9eeb7b3b62e7485e1b56652ee39593ee.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Blue Nebula/Blue Nebula 5 - 1024x1024.png"
-dest_files=[ "res://.import/Blue Nebula 5 - 1024x1024.png-eb0067ef273429d273670bfe2e4c60d8.stex" ]
+source_file="res://Assets/Blue Nebula/Blue Nebula 5 - 1024x1024.png"
+dest_files=[ "res://.import/Blue Nebula 5 - 1024x1024.png-9eeb7b3b62e7485e1b56652ee39593ee.stex" ]
 
 [params]
 

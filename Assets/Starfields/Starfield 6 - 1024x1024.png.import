@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Starfield 6 - 1024x1024.png-a217444caab49c433fe022e0a89e983c.stex"
+path="res://.import/Starfield 6 - 1024x1024.png-42f3f8a7e9a4f74bb337688c40a0cb72.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Starfields/Starfield 6 - 1024x1024.png"
-dest_files=[ "res://.import/Starfield 6 - 1024x1024.png-a217444caab49c433fe022e0a89e983c.stex" ]
+source_file="res://Assets/Starfields/Starfield 6 - 1024x1024.png"
+dest_files=[ "res://.import/Starfield 6 - 1024x1024.png-42f3f8a7e9a4f74bb337688c40a0cb72.stex" ]
 
 [params]
 

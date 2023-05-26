@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/crossair_black.png-ba7e084ef47f50de5eda01dc41bca66a.stex"
+path="res://.import/crossair_black.png-957ea3981e3d6ab1956b983fe0b36b4e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/UI/PNG/crossair_black.png"
-dest_files=[ "res://.import/crossair_black.png-ba7e084ef47f50de5eda01dc41bca66a.stex" ]
+source_file="res://Assets/Kenney Space Shooter/UI/PNG/crossair_black.png"
+dest_files=[ "res://.import/crossair_black.png-957ea3981e3d6ab1956b983fe0b36b4e.stex" ]
 
 [params]
 

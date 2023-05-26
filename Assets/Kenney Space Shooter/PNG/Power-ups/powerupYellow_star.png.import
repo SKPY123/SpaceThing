@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/powerupYellow_star.png-2a469d93954b54dddf09b62d60c27f23.stex"
+path="res://.import/powerupYellow_star.png-101f31fcd6ffe3e9d907886456cba0c7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Power-ups/powerupYellow_star.png"
-dest_files=[ "res://.import/powerupYellow_star.png-2a469d93954b54dddf09b62d60c27f23.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Power-ups/powerupYellow_star.png"
+dest_files=[ "res://.import/powerupYellow_star.png-101f31fcd6ffe3e9d907886456cba0c7.stex" ]
 
 [params]
 

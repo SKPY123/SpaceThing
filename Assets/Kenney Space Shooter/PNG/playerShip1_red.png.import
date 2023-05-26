@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/playerShip1_red.png-aa8e778aaef3d4f973b72200ef64148d.stex"
+path="res://.import/playerShip1_red.png-21f584d1d234534b88a2b3706bb9dded.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/playerShip1_red.png"
-dest_files=[ "res://.import/playerShip1_red.png-aa8e778aaef3d4f973b72200ef64148d.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/playerShip1_red.png"
+dest_files=[ "res://.import/playerShip1_red.png-21f584d1d234534b88a2b3706bb9dded.stex" ]
 
 [params]
 

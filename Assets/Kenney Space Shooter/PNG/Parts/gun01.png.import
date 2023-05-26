@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gun01.png-4046eb43e05786f2b9508e2fc5f69a31.stex"
+path="res://.import/gun01.png-45eeb6f19d67839a59df9c5691696ee4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Parts/gun01.png"
-dest_files=[ "res://.import/gun01.png-4046eb43e05786f2b9508e2fc5f69a31.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Parts/gun01.png"
+dest_files=[ "res://.import/gun01.png-45eeb6f19d67839a59df9c5691696ee4.stex" ]
 
 [params]
 

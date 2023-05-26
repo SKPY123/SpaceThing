@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/darkPurple.png-157cee7714fea337ec38154c62e2bfb0.stex"
+path="res://.import/darkPurple.png-e8c776bb798e0423227b753648db9453.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/Backgrounds/darkPurple.png"
-dest_files=[ "res://.import/darkPurple.png-157cee7714fea337ec38154c62e2bfb0.stex" ]
+source_file="res://Assets/Kenney Space Shooter/Backgrounds/darkPurple.png"
+dest_files=[ "res://.import/darkPurple.png-e8c776bb798e0423227b753648db9453.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Green Nebula 1 - 1024x1024.png-397ebd19d795ad57fa8820bdeb6d90a3.stex"
+path="res://.import/Green Nebula 1 - 1024x1024.png-3fdecb807c6ac5b5680e52f586126537.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Green Nebula/Green Nebula 1 - 1024x1024.png"
-dest_files=[ "res://.import/Green Nebula 1 - 1024x1024.png-397ebd19d795ad57fa8820bdeb6d90a3.stex" ]
+source_file="res://Assets/Green Nebula/Green Nebula 1 - 1024x1024.png"
+dest_files=[ "res://.import/Green Nebula 1 - 1024x1024.png-3fdecb807c6ac5b5680e52f586126537.stex" ]
 
 [params]
 

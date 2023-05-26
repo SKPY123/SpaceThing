@@ -38,7 +38,7 @@ func Player_Found(body):
 		emit_signal("HPBoost", HPUP)
 		disconnect("HPBoost", body.get_parent() , "HPBoost")
 		colliding = true
-		return
+		queue_free()
 	else:
 		queue_free()
 	

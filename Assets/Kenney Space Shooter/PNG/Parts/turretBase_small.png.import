@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/turretBase_small.png-5661919470a9b43ccd46742cd856443e.stex"
+path="res://.import/turretBase_small.png-ec5995fd2ea16e67dc59003b8d059bb6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Parts/turretBase_small.png"
-dest_files=[ "res://.import/turretBase_small.png-5661919470a9b43ccd46742cd856443e.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Parts/turretBase_small.png"
+dest_files=[ "res://.import/turretBase_small.png-ec5995fd2ea16e67dc59003b8d059bb6.stex" ]
 
 [params]
 

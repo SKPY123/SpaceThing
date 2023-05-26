@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/things_gold.png-e6fa695c0134a33a3dac2712ebfccf12.stex"
+path="res://.import/things_gold.png-f288fe1174828346f7538b18462b91b7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Power-ups/things_gold.png"
-dest_files=[ "res://.import/things_gold.png-e6fa695c0134a33a3dac2712ebfccf12.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Power-ups/things_gold.png"
+dest_files=[ "res://.import/things_gold.png-f288fe1174828346f7538b18462b91b7.stex" ]
 
 [params]
 

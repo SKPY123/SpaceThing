@@ -25,9 +25,6 @@ func _process(delta):
 	input_control()
 	get_HP_value()
 	$CanvasLayer/PlayerUI/BoostBar.value = $SpeedBoost.time_left
-	if alive:
-		if Input.is_action_just_pressed("ui_accept"):
-			HPBoost(25)
 
 
 

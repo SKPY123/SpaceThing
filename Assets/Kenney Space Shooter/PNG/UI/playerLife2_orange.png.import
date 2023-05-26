@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/playerLife2_orange.png-33a9b3762400d6a74083cb3bea22d429.stex"
+path="res://.import/playerLife2_orange.png-abf9ba7fc6090adbb5584568cbfc2077.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/UI/playerLife2_orange.png"
-dest_files=[ "res://.import/playerLife2_orange.png-33a9b3762400d6a74083cb3bea22d429.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/UI/playerLife2_orange.png"
+dest_files=[ "res://.import/playerLife2_orange.png-abf9ba7fc6090adbb5584568cbfc2077.stex" ]
 
 [params]
 

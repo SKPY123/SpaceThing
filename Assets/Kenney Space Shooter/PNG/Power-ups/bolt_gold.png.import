@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bolt_gold.png-1410179b62a436856950b6fa67fab2c6.stex"
+path="res://.import/bolt_gold.png-1a4d75176c19efb36fefa5d3d9c939c2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/Power-ups/bolt_gold.png"
-dest_files=[ "res://.import/bolt_gold.png-1410179b62a436856950b6fa67fab2c6.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/Power-ups/bolt_gold.png"
+dest_files=[ "res://.import/bolt_gold.png-1a4d75176c19efb36fefa5d3d9c939c2.stex" ]
 
 [params]
 

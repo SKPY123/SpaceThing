@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/sfx_shieldUp.ogg-8d8fe6967591a8ce8f914f3f395e4681.oggstr"
+path="res://.import/sfx_shieldUp.ogg-3d7125c9ac484bfd5b76d63c67f858c8.oggstr"
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/Bonus/sfx_shieldUp.ogg"
-dest_files=[ "res://.import/sfx_shieldUp.ogg-8d8fe6967591a8ce8f914f3f395e4681.oggstr" ]
+source_file="res://Assets/Kenney Space Shooter/Bonus/sfx_shieldUp.ogg"
+dest_files=[ "res://.import/sfx_shieldUp.ogg-3d7125c9ac484bfd5b76d63c67f858c8.oggstr" ]
 
 [params]
 

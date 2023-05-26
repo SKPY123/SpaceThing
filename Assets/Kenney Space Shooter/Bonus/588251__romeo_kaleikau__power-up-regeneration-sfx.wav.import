@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/588251__romeo_kaleikau__power-up-regeneration-sfx.wav-ad653efba0c1694c7fedce7a8486b73c.sample"
+path="res://.import/588251__romeo_kaleikau__power-up-regeneration-sfx.wav-0ad2cf72347b74dda7764503630b0850.sample"
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/Bonus/588251__romeo_kaleikau__power-up-regeneration-sfx.wav"
-dest_files=[ "res://.import/588251__romeo_kaleikau__power-up-regeneration-sfx.wav-ad653efba0c1694c7fedce7a8486b73c.sample" ]
+source_file="res://Assets/Kenney Space Shooter/Bonus/588251__romeo_kaleikau__power-up-regeneration-sfx.wav"
+dest_files=[ "res://.import/588251__romeo_kaleikau__power-up-regeneration-sfx.wav-0ad2cf72347b74dda7764503630b0850.sample" ]
 
 [params]
 

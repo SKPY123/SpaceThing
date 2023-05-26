@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/buttonBlue.png-7de5d9ef00b82b40a0ca8ab3d05acd93.stex"
+path="res://.import/buttonBlue.png-8d3d8c6cbe77c2b7d874cbd8d19a0be0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/PNG/UI/buttonBlue.png"
-dest_files=[ "res://.import/buttonBlue.png-7de5d9ef00b82b40a0ca8ab3d05acd93.stex" ]
+source_file="res://Assets/Kenney Space Shooter/PNG/UI/buttonBlue.png"
+dest_files=[ "res://.import/buttonBlue.png-8d3d8c6cbe77c2b7d874cbd8d19a0be0.stex" ]
 
 [params]
 

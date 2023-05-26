@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/220173__gameaudio__spacey-1uppower-up.wav-766776fd4ea0707b9f678689adad787b.sample"
+path="res://.import/220173__gameaudio__spacey-1uppower-up.wav-e179eb6af793faf8fde8d2bd728816a5.sample"
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/Bonus/220173__gameaudio__spacey-1uppower-up.wav"
-dest_files=[ "res://.import/220173__gameaudio__spacey-1uppower-up.wav-766776fd4ea0707b9f678689adad787b.sample" ]
+source_file="res://Assets/Kenney Space Shooter/Bonus/220173__gameaudio__spacey-1uppower-up.wav"
+dest_files=[ "res://.import/220173__gameaudio__spacey-1uppower-up.wav-e179eb6af793faf8fde8d2bd728816a5.sample" ]
 
 [params]
 

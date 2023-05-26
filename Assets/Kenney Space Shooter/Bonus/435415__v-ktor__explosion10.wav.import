@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/435415__v-ktor__explosion10.wav-aadaee2923708f7f0b93fb5588f56d6c.sample"
+path="res://.import/435415__v-ktor__explosion10.wav-8c5ad8ea947b2a61bd42659e534d60f9.sample"
 
 [deps]
 
-source_file="res://SpaceThing/Assets/Kenney Space Shooter/Bonus/435415__v-ktor__explosion10.wav"
-dest_files=[ "res://.import/435415__v-ktor__explosion10.wav-aadaee2923708f7f0b93fb5588f56d6c.sample" ]
+source_file="res://Assets/Kenney Space Shooter/Bonus/435415__v-ktor__explosion10.wav"
+dest_files=[ "res://.import/435415__v-ktor__explosion10.wav-8c5ad8ea947b2a61bd42659e534d60f9.sample" ]
 
 [params]
 
